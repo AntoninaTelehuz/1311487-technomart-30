@@ -11,7 +11,7 @@
     <link rel="manifest" href="manifest.json">    
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Cuprum:ital,wght@0,400;0,700;1,400&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     
   </head>
@@ -30,7 +30,7 @@
       </div>
       <div class="header-bottom ">
         <div class="header-bottom-about container">
-          <p class="header-content">Интернет-магазин строительных материалов и инструментов для ремонта</p>
+          <p class="header-content">Интернет-магазин строительных материалов и&nbspинструментов для ремонта</p>
           <div class="header-bottom-contacts contacts-home" >
             <a class="phablet " href="tel:+78125550555">+7 (812) 555-05-55</a>
             <p class="adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
@@ -197,23 +197,23 @@
           </div>
           <div class="service-delivery tabcontent" id="delivery">
             <h2>Доставка</h2>
-            <p class="content" >Мы с удовольствием доставим ваш товар прямо 
-              <br> к вашему подъезду совершенно бесплатно!
-              <br> Ведь мы неплохо заработаем, 
-              <br> поднимая его на ваш этаж!</p>
+            <p class="content content-delivery" >Мы с удовольствием доставим ваш товар прямо 
+              к вашему подъезду совершенно бесплатно!
+              Ведь мы неплохо заработаем, 
+             <br> поднимая его на ваш этаж!</p>
           </div>
           <div class="service-warranty tabcontent" id="warranty">
             <h2>Гарантия</h2>
-            <p class="content">Если купленный у нас товар поломается или заискрит,
-              <br> а также в случае пожара, спровоцированного его 
-              <br>возгоранием,  вы всегда можете быть уверены в нашей 
-              <br> гарантии. Мы обменяем сгоревший товар на новый. 
-              <br> Дом уж восстановите как-нибудь сами.</p>
+            <p class="content content-warranty">Если купленный у нас товар поломается или заискрит,
+              а также в случае пожара, спровоцированного его 
+              возгоранием,  вы всегда можете быть уверены в нашей 
+              гарантии. Мы обменяем сгоревший товар на новый. 
+              Дом уж восстановите как-нибудь сами.</p>
           </div>
           <div class="service-credit tabcontent" id="credit">
             <h2>Кредит</h2>
-            <p class="content">Залезть в долговую яму стало проще! 
-              <br> Кредитные консультанты придут вам на помощь.</p>
+            <p class="content content-credit">Залезть в долговую яму стало проще! 
+              Кредитные консультанты придут вам на помощь.</p>
               <a class="credit-btn" href="#">Отправить заявку</a>
           </div>
         </div>
@@ -241,9 +241,7 @@
           <h2>Контакты</h2>
           <p class="content contacts-content">Вы можете забрать товар сами, 
           <br> заехав в наш офис:</p>
-          <a class="map" href="#">
-            <img src="img/map.jpg" width="300" height="158" alt="map">
-          </a>
+          <a class="map" href="#"></a>
           <a class="contacts-btn link-btn" href="#">Заблудились? Напишите нам!</a>
         </div>
       </div>
@@ -318,8 +316,21 @@
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6037999040354!2d30.322010416394033!3d59.938716271971415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2sBolshaya+Konyushennaya+ul.%2C+19%2C+Sankt-Peterburg%2C+Russia%2C+191186!5e0!3m2!1sen!2s!4v1441888483426" width="943" height="449" allowfullscreen title="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург"></iframe>
       <button class="modal-map-close" type="button" aria-label="Закрыть"></button>
     </section>
+
+    <section class="modal modal-after-buy">
+      <div class="modal-buy-top">
+        <img class="modal-buy-img" src="img/decorative/icon-mark.svg" alt="успешная покупка" height="66" width="66">
+        <p class="modal-buy-content">Товар добавлен в корзину!</p>
+      </div>
+      <div class="buttons-buy">
+        <button class="modal-buy-button modal-buy-arrange" type="submit">Оформить заказ</button>
+        <button class="modal-buy-button modal-buy-proceed" type="submit">Продолжить покупки</button>
+      </div>
+      <button class="modal-close-buy" type="button" aria-label="Закрыть"></button>
+    </section>
     <script src="js/map.min.js"></script>
     <script src="js/script.min.js"></script>
     <script src="js/message.min.js"></script>
+    <script src="js/buy.js"></script>
   </body>
 </html>
