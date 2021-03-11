@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Cuprum:ital,wght@0,400;0,700;1,400&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css" >
-    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body class="page-body">
     <header>
@@ -23,7 +23,7 @@
           <input type="search" name="text" required placeholder="Поиск:">
           </form>
           <a class="header-top-link bookmarks-top" href="#">Закладки: 0 </a>
-          <a class="header-top-link basket" href="#">Корзина: 10 </a>
+          <a class="header-top-link basket basket-catalog" href="#">Корзина: 10 </a>
           <a class="header-top-link order" href="#">Оформить заказ</a>
         </div>
       </div>
@@ -57,7 +57,7 @@
         </nav>
       </div>
     </header>
-    <main >
+    <main class="container">
       <section class="catalog-page container ">
       <div class="location ">
         <ul class="breadcrumbs">
@@ -93,9 +93,9 @@
           </label>
           </div>
           <div class="line"></div>
-          <fieldset >
+          <fieldset class="filter-checkbox-section">
             <legend class="filter-title">Производители:</legend>
-            <ul>
+            <ul class="filter-checkbox">
               <li class="filter-option filter-checkbox">
                 <input class="visually-hidden filter-input-checkbox" type="checkbox" name="bosch" id="filter-bosch" checked>
                 <label for="filter-bosch">bosch</label>
@@ -117,6 +117,7 @@
                 <label for="filter-hitachi">hitachi</label> 
               </li>
             </ul>
+            <div class="line"></div>
           </fieldset>
           <fieldset class="filter-section">
             <legend class="filter-title">Питание:</legend>
@@ -136,7 +137,7 @@
         </form>
       </section>
 
-      <section class="catalog container">
+      <section class="catalog">
         <div class="sorting">
           <span>сортировка:</span>
           <div class="sorting-section" >
@@ -206,6 +207,7 @@
             </div>
             <img src="img/drill_2_6.jpg" width="127" height="112" alt="perforator">
             <p class="goods-title">Перфоратор BOSCH BFG 2000</p>
+            <s></s>
             <p class="goods-price">12500 Р.</p>
           </div>
           <div class="goods-item new">
@@ -235,6 +237,7 @@
             </div>
             <img src="img/drill_2_9.jpg" width="127" height="112" alt="perforator">
             <p class="goods-title">Перфоратор BOSCH BFG 2000</p>
+            <s></s>
             <p class="goods-price">12500 Р.</p>
           </div>
         </div>
@@ -292,7 +295,7 @@
             <p>Обратная связь:</p>
             <a class="footer-bottom-link" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
           </div>
-          <div>
+          <div class="made">
             <p>Разработано —</p>
             <a class="footer-bottom-link" href="https://echo.htmlacademy.ru">htmlacademy.ru</a>
           </div>
