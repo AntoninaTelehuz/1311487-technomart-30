@@ -715,16 +715,19 @@ h2 {
     font-family: "PT Sans","Arial", sans-serif;
     font-weight: bold;
     font-size: 18px;
+    line-height: 20px;
     color: var(--basic-black);
     max-width: 157px;
+    height: 43px;
     padding-left: 30px;
+    margin-bottom: 7px;
 }
 .goods-item {
     max-width:218px;
     height:316px;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr min-content min-content min-content;
+    grid-template-rows: 1fr 50px 31px 59px;
     text-align: center;
     align-items: center;
     border: 1px solid var(--basic-border-goods);
@@ -735,14 +738,15 @@ h2 {
     margin: auto;
 }
 .old-price {
+    margin: 0;
     text-decoration: line-through;
     font-family: "PT Sans","Arial",sans-serif;
     font-weight: bold;
     font-size: 17px;
-    height: 18px;
+    line-height: 18px;
     text-transform: uppercase;
     color: var(--basic-gray);
-    margin-bottom: 13px;
+    margin-bottom: 14px;
 }
 .goods-price {
     display: flex;
@@ -754,16 +758,16 @@ h2 {
     line-height: 20px;
     text-transform: uppercase;  
     color: var(--basic-white);
-    background:linear-gradient(135deg, transparent 110px, var(--basic-white) 0),
-    linear-gradient(45deg, transparent 110px, var(--basic-white) 0);
+    background:linear-gradient(135deg, transparent 115px, var(--basic-white) 0),
+    linear-gradient(45deg, transparent 115px, var(--basic-white) 0);
     background-repeat: no-repeat;
     background-color: var(--basic-red);
     border-radius: 3px;
     height: 38px;
-    width: 141px;
+    width: 119px;
     border-radius: 3px;
-    margin: 5px auto 21px 45px;
-    justify-content: center;
+    margin: 0 auto 21px 45px;
+    padding-left: 32px;
     align-items: center;
     }
 .hidden-buttons {
