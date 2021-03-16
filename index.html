@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Cuprum:ital,wght@0,400;0,700;1,400&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/style.css">
     
   </head>
   <body class="page-body">
@@ -24,13 +24,13 @@
             <input type="search" name="text" required placeholder="Поиск:">
           </form>
           <a class="header-top-link bookmarks-top" href="#">Закладки: 0 </a>
-          <a class="header-top-link basket" href="#">Корзина: 0 </a>
+          <a class="header-top-link basket basket-index" href="#">Корзина: 0 </a>
           <a class="header-top-link order" href="#">Оформить заказ</a>
         </div>
       </div>
       <div class="header-bottom ">
         <div class="header-bottom-about container">
-          <p class="header-content">Интернет-магазин строительных материалов и&nbspинструментов для ремонта</p>
+          <p class="header-content">Интернет-магазин строительных материалов и&nbsp;инструментов для ремонта</p>
           <div class="header-bottom-contacts contacts-home" >
             <a class="phablet " href="tel:+78125550555">+7 (812) 555-05-55</a>
             <p class="adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
@@ -91,7 +91,7 @@
             <a class="prev" onclick="plusSlides(-1)"><img src="img/decorative/shape_2.svg" alt="вперед" width="21" height="39"></a>
             <a class="next" onclick="plusSlides(1)"><img src="img/decorative/shape_1.svg" alt="назад" width="21" height="39"></a>
           </div>
-          <div style="text-align:center">
+          <div class="slides-dot">
             <span class="dot" onclick="currentSlide(1)"></span>
             <span class="dot" onclick="currentSlide(2)"></span>
           </div>
@@ -151,9 +151,9 @@
 
       <!--Popular manufacturer-->
       <section class="popular-manufacturer container" >
-        <div class="popular-title ">
+        <div class="popular-title">
           <h2>Популярные производители:</h2>
-          <a class="link-btn" href="index.html">все производители</a>
+          <a class="link-btn-manufacturer" href="index.html">все производители</a>
         </div>
         <div class="manufacturers-logo">
           <a class="popular-manufacturer-item" href="https://www.bosch.com/">
@@ -197,7 +197,7 @@
           </div>
           <div class="service-delivery tabcontent" id="delivery">
             <h2>Доставка</h2>
-            <p class="content content-delivery" >Мы с удовольствием доставим ваш товар прямо 
+            <p class="content content-delivery">Мы с удовольствием доставим ваш товар прямо 
               к вашему подъезду совершенно бесплатно!
               Ведь мы неплохо заработаем, 
              <br> поднимая его на ваш этаж!</p>
@@ -280,12 +280,14 @@
             <a class="instagram" href="https://www.instagram.com/">ing</a>
           </div>
           <div class="feedback">
-            <p>Обратная связь:</p>
+            <p>Обратная связь:
             <a class="footer-bottom-link" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+          </p>
           </div>
           <div class="made">
-            <p>Разработано —</p>
+            <p>Разработано —
             <a class="footer-bottom-link" href="https://htmlacademy.ru/">htmlacademy.ru</a>
+          </p>
           </div>
         </div>
       </div>

@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Cuprum:ital,wght@0,400;0,700;1,400&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css" >
-    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body class="page-body">
     <header>
@@ -23,13 +23,13 @@
           <input type="search" name="text" required placeholder="Поиск:">
           </form>
           <a class="header-top-link bookmarks-top" href="#">Закладки: 0 </a>
-          <a class="header-top-link basket basket-catalog" href="#">Корзина: 10 </a>
+          <a class="basket-catalog header-top-link basket" href="#">Корзина: 10 </a>
           <a class="header-top-link order" href="#">Оформить заказ</a>
         </div>
       </div>
       <div class="header-bottom ">
         <div class="header-bottom-about container ">
-          <p class="header-content">Интернет-магазин строительных материалов и инструментов для ремонта</p>
+          <p class="header-content">Интернет-магазин строительных материалов и&nbsp;инструментов для ремонта</p>
           <div class="header-bottom-contacts contacts-catalog" >
             <a class="phablet" href="tel:+78125550555">+7 (812) 555-05-55</a>
             <p class="adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
@@ -57,17 +57,16 @@
         </nav>
       </div>
     </header>
-    <main class="container">
+    <main>
       <section class="catalog-page container ">
-      <div class="location ">
-        <ul class="breadcrumbs">
-          <li class="home-page" ><a href="index.html"><img src="img/decorative/icon-home.svg" alt="homepage" width="14" height="12"></a></li>
-          <li><a href="catalog.html">Каталог</a></li>
-          <li><a href="catalog.html">Инструмент</a></li>
-          <li>Перфораторы</li> 
+      <div class="location">
+          <a class="home-page" href="index.html"><img src="img/decorative/icon-home.svg" alt="homepage" width="14" height="12"></a></li>
+          <a href="catalog.html">Каталог</a>
+          <a href="catalog.html">Инструмент</a>
+          <a href="#" class="disabled">Перфораторы</a>
         </ul>
       </div>
-      <div class="catalog-title container ">
+      <div class="catalog-title">
         <h2>Перфораторы</h2>
       </div>  
 
@@ -126,7 +125,7 @@
                 <input class="visually-hidden filter-input-radio" type="radio" name="battery-power" id="filter-battery-power" checked>
                 <label for="filter-battery-power">Аккумуляторные</label>
               </li>
-              <li class="filter-option">
+              <li class="filter-option mains-supply">
                 <input class="visually-hidden filter-input-radio" type="radio" name="mains-supply" id="filter-mains-supply">
                 <label for="filter-mains-supply">Сетевые</label> 
               </li>
@@ -249,7 +248,7 @@
           </div>
       </section>
       </section>
-      <section class="catalog-content ">
+      <section class="catalog-content">
         <div class="container">
           <h2>Пара слов о перфораторах</h2>
           <p class="content">
@@ -292,12 +291,14 @@
             <a class="instagram" href="https://www.instagram.com/">ing</a>
           </div>
           <div class="feedback">
-            <p>Обратная связь:</p>
+            <p>Обратная связь:
             <a class="footer-bottom-link" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+            </p>
           </div>
           <div class="made">
-            <p>Разработано —</p>
+            <p>Разработано —
             <a class="footer-bottom-link" href="https://echo.htmlacademy.ru">htmlacademy.ru</a>
+            </p>
           </div>
         </div>
       </div>
