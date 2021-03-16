@@ -77,12 +77,12 @@
 
         <div class="slides-section ">
           <div class="mySlides fade">
-            <img src="img/perforator_slide.png" alt="слайд1" width="620" height="266">
+            <img src="img/perforator_slide.png" alt="perforator" width="620" height="266">
             <h3 class="slides-title">Перфораторы</h3>
             <p class="slides-content">Настоящие мужские игрушки</p>
           </div>
           <div class="mySlides fade">
-            <img src="img/drill_slide.png" alt="слайд2" width="620" height="266">
+            <img src="img/drill_slide.png" alt="drill" width="620" height="266">
             <h3 class="slides-title">Дрели</h3>
             <p class="slides-content">Соседям на радость!</p>
           </div>
@@ -260,7 +260,7 @@
           </ul>
           <div class="footer-promo">
             <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 
-             <br> +7 (812) 555-05-55</p>
+             <br> <a href="tel:+78125550555">+7 (812) 555-05-55</a></p>
             <ul class="footer-promo-nav">
               <li><a href="catalog.html">Материалы</a></li>
               <li><a href="catalog.html">Техника</a></li>
@@ -296,16 +296,16 @@
       <form class="message-form" action="https://echo.htmlacademy.ru" method="post">
         <div class="modal-top container-modal">
           <p class="message-item">
-            <label class="modal-description" >Ваше имя:</label>
+            <label class="modal-description" for="message-name">Ваше имя:</label>
             <input class="message-name" id="message-name" type="text" name="name" placeholder="Имя Фамилия">
           </p>
           <p class="message-item">
-            <label class="modal-description" >Ваш e-mail:</label>
+            <label class="modal-description" for="email">Ваш e-mail:</label>
             <input class="email-user" id="email" type="email" name="email" placeholder="email@example.com">
           </p>
         </div>
-        <p class="modal-description container-modal">Текст письма:</p>
-        <p class="message-textarea container-modal"><textarea name="comment" cols="40" rows="3" placeholder="В свободной форме"></textarea></p>
+        <label class="modal-description container-modal" for="comment">Текст письма:</label>
+        <p class="message-textarea container-modal"><textarea name="comment" cols="40" rows="3" placeholder="В свободной форме" id="comment"></textarea></p>
         <div class="modal-button-section">
           <button class="modal-button" type="submit">Отправить</button>
         </div>

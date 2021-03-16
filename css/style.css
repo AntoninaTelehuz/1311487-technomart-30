@@ -581,6 +581,7 @@ h2 {
     top:23px;
     left: 24px;
 }
+
 .mySlides {
     display: none;
     position: relative;
@@ -1155,6 +1156,12 @@ h2 {
     margin-left: 4px;
     padding-bottom: 54px;
 }
+.footer-promo a{
+    text-decoration: none;
+    font-family: "Cuprum","Arial", sans-serif;
+    font-size: 18px;
+    color: var(--basic-bottom);
+}
 .footer-promo {
     display: flex;
     flex-direction: row;
@@ -1163,7 +1170,7 @@ h2 {
     margin:0;
     padding: 0;
 }
-.footer-promo a {
+.footer-promo-nav a {
     text-decoration: none;
     font-family: "Cuprum" ,"Arial", sans-serif;
     font-size: 18px;
