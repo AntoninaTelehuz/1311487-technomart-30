@@ -1,4 +1,4 @@
-const buyLink = document.querySelectorAll(".buy");
+const buyLinks = document.querySelectorAll(".buy");
 const buyPopup = document.querySelector(".modal-after-buy");
 const buyClose = buyPopup.querySelector(".modal-close-buy");
 

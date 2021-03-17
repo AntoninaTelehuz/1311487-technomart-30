@@ -121,7 +121,7 @@
     background-color: var(--basic-white);
     color: var(--basic-black);
 }
-.header-top-search:active::before .header-top-search:active{
+.header-top-search:active::before .header-top-search:active {
     background-color: var(--basic-white);
     color: var(--basic-black);
 }
@@ -431,11 +431,11 @@
     background-color: var(--basic-nav-active);
     opacity: 0.5;
 }
-.disabled{
+.disabled {
     pointer-events: none;
     cursor: default;
 }
-.location a{
+.location a {
     font-family: "PT Sans","Arial", sans-serif;
     text-decoration: none;
     color: var(--basic-black);
@@ -616,7 +616,7 @@
     from{opacity: .4}
     to{opacity: 1}
   }
-.slides-dot{
+.slides-dot {
     text-align: center;
 }
 .dot {
@@ -736,7 +736,7 @@
     padding-top: 11px;
     padding-bottom: 9px;
 }
-.link-btn-manufacturer{
+.link-btn-manufacturer {
     text-decoration: none;
     font-family: "Cuprum","Arial",sans-serif;
     font-size: 14px;
@@ -1108,7 +1108,7 @@
     height: 158px;
     margin-bottom: 25px;
 }
-.logo-footer{
+.logo-footer {
     margin:0;
     width: 394;
     height: 90px;
@@ -1193,7 +1193,7 @@
     margin-left: 4px;
     padding-bottom: 54px;
 }
-.footer-promo a{
+.footer-promo a {
     text-decoration: none;
     font-family: "Cuprum","Arial", sans-serif;
     font-size: 18px;
@@ -1333,7 +1333,7 @@
     color: var(--basic-black);
     max-width: 700px;
 } 
-.catalog-content p{
+.catalog-content p {
     font-family: "PT Sans","Arial",sans-serif;
     font-size: 13px;
     line-height: 24px;
@@ -1469,10 +1469,10 @@
     justify-content: flex-start;
     margin-right: 46px;
 }
-.sorting-link:first-child{
+.sorting-link:first-child {
     margin-right: 70px;
 }
-.sorting-link:nth-child(2){
+.sorting-link:nth-child(2) {
     margin-right: 65px;
 }
 .sorting-up {
@@ -1615,7 +1615,7 @@ fieldset ul {
     line-height: 19px;
     color: var(--basic-black);
   }
-.filter-checkbox:nth-child(4){
+.filter-checkbox:nth-child(4) {
     padding-top: 2px;
 }
 .filter-input-checkbox + label::before {
@@ -1634,10 +1634,10 @@ fieldset ul {
 .filter-input-checkbox + label:disabled::before {
     opacity: 0.4;
 }
-.mains-supply{
+.mains-supply {
     padding-top: 3px;
 }
-.filter-mains-supply{
+.filter-mains-supply {
     margin-top: 3px;
 }
 .filter-input-checkbox:checked + label::after {
@@ -1657,7 +1657,7 @@ fieldset ul {
     border-right: 4px solid var(--basic-gray-checkbox-hover);
     border-bottom: 4px solid var(--basic-gray-checkbox-hover);
 }
-.filter-input-checkbox:checked label{
+.filter-input-checkbox:checked label {
     opacity: 0.4;
 }
 .filter-input-checkbox:checked + label:disabled::after {
