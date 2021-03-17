@@ -47,3 +47,4 @@ function servisTitle(evt, servisName) {
     document.getElementById(servisName).style.display = "block";
     evt.currentTarget.className += " active";
 }
+
